@@ -1,0 +1,67 @@
+<html>
+
+<head></head>
+
+<body>
+    <form action="/leave1" method="POST">
+        Serial Type:
+        <select class="form-control select">
+            <option>SD</option>
+            <option>SI</option>
+        </select>
+
+        <br>
+        <label>Place:</label>
+        <input name="place" type="text" class="form-control" placeholder="Delhi">
+
+        <br>
+
+        <label>From</label>
+        <input name="from" type="text" class="form-control datetimepicker">
+
+        <br>
+        <label>To</label>
+        <input name="to" type="text" class="form-control datetimepicker">
+
+
+
+
+        <br>
+        <label>
+            Bill to:
+
+        </label>
+        <select>
+            <option>Customer</option>
+            <option>Not to Customer</option>
+            <option>Internal</option>
+        </select><br>
+        Logistics:
+        <select multiple class="form-control select">
+            <option>Logistics</option>
+            <option>Flights</option>
+            <option>Train</option>
+            <option>Taxi</option>
+            <option>Bus</option>
+            <option>Visa</option>
+            <option>Insurance</option>
+            <option>Others</option>
+        </select>
+
+        <br>
+        <label>Customer Name & Address: </label>
+        <textarea class="form-control" rows=4></textarea>
+        <br>
+        <label>Description: </label>
+        <textarea class="form-control" rows=4></textarea>
+
+
+
+        <button type="submit" value="Submit">
+            Submit
+        </button>
+
+    </form>
+</body>
+
+</html>
